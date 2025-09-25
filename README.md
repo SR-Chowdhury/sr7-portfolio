@@ -15,7 +15,7 @@ A **modern, ATS-friendly, and SEO-optimized** portfolio template built with **Re
 - 🖼️ **Automatic image optimization** (WebP, JPEG, PNG)
 - 🚀 **One-click deploy** to Vercel, Netlify, or any static host
 
-👉 **[Live Demo](https://react-portfolio-template.vercel.app)**
+👉 **[Live Demo](https://react-portfolio-template-rho.vercel.app/)**
 
 ---
 
