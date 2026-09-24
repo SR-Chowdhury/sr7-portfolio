@@ -1,18 +1,23 @@
 // src/configs/data/education.js
 export const EDUCATION_DATA = [
   {
-    id: "computer-science",
-    school: "University of Technology",
-    year: "2010 - 2014"
+    id: "cyber-diploma",
+    school: "Arena Web Security",
+    year: "2026 — Present"
   },
   {
-    id: "web-dev-bootcamp",
-    school: "Dev Academy",
-    year: "2015"
-  },
-  {
-    id: "tdd-course",
-    school: "University of Helsinki",
+    id: "programming-hero",
+    school: "Programming Hero",
     year: "2023"
+  },
+  {
+    id: "msc-portsmouth",
+    school: "University of Portsmouth",
+    year: "2022 — 2023"
+  },
+  {
+    id: "bsc-leading",
+    school: "Leading University",
+    year: "2014 — 2017"
   }
 ];

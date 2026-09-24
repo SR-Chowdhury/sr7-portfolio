@@ -2,85 +2,83 @@
 import {
   SiPostgresql,
   SiMongodb,
-  SiRedis,
-  SiTypescript,
-  SiCplusplus,
-  SiHaskell,
+  SiMysql,
   SiPython,
   SiJavascript,
   SiLinux,
   SiDocker,
   SiGithub,
-  SiSecurityscorecard,
-  SiShieldsdotio,
-  SiKubernetes,
   SiExpress,
-  SiMysql,
-  SiTailwindcss
+  SiTailwindcss,
+  SiKalilinux,
+  SiWireshark,
+  SiMetasploit,
+  SiBurpsuite
 } from 'react-icons/si';
 
 import {
-  FaCode,
-  FaRegFileCode,
-  FaTerminal,
   FaReact,
   FaNodeJs,
   FaNetworkWired,
-  FaRegistered,
-  FaPython,
-  FaShieldAlt
+  FaShieldAlt,
+  FaTerminal
 } from 'react-icons/fa';
 import { FaShield } from 'react-icons/fa6';
-import { TbCloudDataConnection, TbLoadBalancer } from 'react-icons/tb';
-import { BsSpeedometer } from 'react-icons/bs';
-import { MdArchitecture } from 'react-icons/md';
 import { DiRedis } from 'react-icons/di';
 
 export const SKILLS_DATA = [
+  {
+    id: "security",
+    items: [
+      { name: "ethical-hacking", icon: FaShieldAlt },
+      { name: "pentesting", icon: FaShield },
+      { name: "websec", icon: FaNetworkWired },
+      { name: "osint", icon: FaTerminal }
+    ]
+  },
+  {
+    id: "tools",
+    items: [
+      { name: "burpsuite", icon: SiBurpsuite },
+      { name: "kali", icon: SiKalilinux },
+      { name: "wireshark", icon: SiWireshark },
+      { name: "metasploit", icon: SiMetasploit }
+    ]
+  },
   {
     id: "frontend",
     items: [
       { name: "react", icon: FaReact },
       { name: "javascript", icon: SiJavascript },
-      { name: "typescript", icon: SiTypescript },
-      { name: "tailwind", icon:  SiTailwindcss}
+      { name: "tailwind", icon: SiTailwindcss },
+      { name: "express", icon: SiExpress }
     ]
   },
   {
     id: "backend",
     items: [
-      { name: "python", icon: FaPython },
       { name: "nodejs", icon: FaNodeJs },
-      { name: "express", icon: SiExpress },
-    ]
-  },
-  {
-    id: "devops",
-    items: [
+      { name: "python", icon: SiPython },
       { name: "docker", icon: SiDocker },
-      { name: "git", icon: SiGithub },
+      { name: "linux", icon: SiLinux }
     ]
   },
   {
     id: "databases",
     items: [
-      { name: "postgresql", icon: SiPostgresql },
       { name: "mysql", icon: SiMysql },
       { name: "mongodb", icon: SiMongodb },
+      { name: "postgresql", icon: SiPostgresql },
       { name: "redis", icon: DiRedis }
     ]
   },
   {
-    id: "testing",
+    id: "platforms",
     items: [
-      { name: "jest" },
-      { name: "playwright" }
-    ]
-  },
-  {
-    id: "other",
-    items: [
-      { name: "languages", icon: SiCplusplus },
+      { name: "linux", icon: SiLinux },
+      { name: "git", icon: SiGithub },
+      { name: "docker", icon: SiDocker },
+      { name: "python", icon: SiPython }
     ]
   }
 ];

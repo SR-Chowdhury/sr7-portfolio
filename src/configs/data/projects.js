@@ -1,23 +1,23 @@
 // src/configs/data/projects.js
 export const PROJECTS_DATA = [
   {
-    id: "e-commerce-platform",
-    tech: [ "React", "Node.js", "TypeScript", "Tailwind", "Stripe", "MongoDB" ],
-    link: "https://github.com/example/ecommerce"
+    id: "portswigger-labs",
+    tech: ["Burp Suite", "SQL Injection", "XSS", "CSRF", "Clickjacking", "CORS", "XXE", "SSRF", "Access Control", "Authentication", "Business Logic"],
+    link: "https://github.com/SR-Chowdhury"
   },
   {
-    id: "task-manager-app",
-    tech: [ "React", "Firebase", "Framer Motion", "Vite" ],
-    link: "https://github.com/example/task-manager"
+    id: "htb-machines",
+    tech: ["Nmap", "Metasploit", "SMB", "FTP", "MySQL", "Redis", "Telnet", "RDP"],
+    link: "https://github.com/SR-Chowdhury"
   },
   {
-    id: "weather-dashboard",
-    tech: [ "React", "OpenWeather API", "Chart.js", "Responsive" ],
+    id: "wordpress-audit",
+    tech: ["WordPress", "Wordfence", "PHP", "Security Audit", "Vulnerability Assessment"],
     link: null
   },
   {
-    id: "blog-engine",
-    tech: [ "Node.js", "Express", "PostgreSQL", "React", "SEO" ],
-    link: "https://github.com/example/blog-engine"
+    id: "vuln-scanner",
+    tech: ["Python", "Flask", "React", "Security Automation"],
+    link: "https://github.com/SR-Chowdhury"
   },
 ];

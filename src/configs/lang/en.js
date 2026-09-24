@@ -1,14 +1,15 @@
 // src/configs/lang/en.js
 export default {
   site: {
-    name: "Alex Morgan",
-    title: "Full-Stack Developer | React & Node.js Specialist",
-    description: "Developer with experience in modern web applications, RESTful APIs, and scalable architectures.",
+    name: "Shihan Chowdhury",
+    title: "SR7 | Cyber Security | Full-Stack Developer",
+    description: "Full-Stack Web Developer transitioning into Cyber Security. Focused on penetration testing, web application security, and ethical hacking.",
     heroPhrases: [
-      "Building apps with React since 2018",
-      "Clean code enthusiast",
-      "TDD Practitioner",
-      "Open Source Contributor"
+      "Think Like An Attacker. Build Like A Defender.",
+      "50+ PortSwigger Labs Solved",
+      "7 Hack The Box Machines Completed",
+      "Burp Suite · Kali Linux · Nmap",
+      "Web Application Security Enthusiast"
     ]
   },
   nav: {
@@ -28,37 +29,41 @@ export default {
     education: "Education",
     contact: "Contact"
   },
-  about: {
-    bio: [
-      "I'm a full-stack developer with experience building robust and scalable web applications.",
-      "I'm passionate about writing clean, well-tested, and maintainable code. I use TDD and CI/CD in all my projects.",
-      "Outside of coding, I enjoy sharing knowledge, contributing to open source, and learning new technologies."
-    ]
-  },
+about: {
+  bio: [
+    "🛡️ SR7 | Think Like an Attacker. Build Like A Defender.",
+    "",
+    "I'm a Full-Stack Web Developer with 4+ years of experience, now transitioning into Cyber Security with a focus on Web Application Security and Penetration Testing.",
+    "",
+    "Currently completing a Professional Diploma in Cyber Security at Arena Web Security — 50+ PortSwigger labs solved and 7 Hack The Box machines completed.",
+    "",
+    "Seeking entry-level opportunities in Cyber Security, Penetration Testing, or SOC in the UK."
+  ]
+},
   experience: {
     roles: {
-      "senior-dev": "Senior Full-Stack Developer",
-      "dev-lead": "Technical Lead",
-      "frontend-dev": "Frontend Developer",
-      "backend-dev": "Backend Developer"
+      "cyber-trainee": "Cyber Security and Ethical Hacking Trainee",
+      "it-executive": "Information Technology Executive",
+      "fullstack-dev": "Full-Stack Web Developer"
     },
     descriptions: {
-      "senior-dev": "Design and implement full-stack solutions with React, Node.js, and modern databases. Focus on performance, accessibility, and best practices.",
-      "dev-lead": "Lead agile teams, define technical architecture, and mentor developers in best practices and testing.",
-      "frontend-dev": "Build modern UIs with React, TypeScript, and Tailwind CSS. Prioritize UX, accessibility, and performance.",
-      "backend-dev": "Create RESTful APIs and backend services with Node.js, Express, and SQL/NoSQL databases. Use automated testing throughout the pipeline."
+      "cyber-trainee": "Completing a 50-credit professional diploma in Cyber Security. Solving 50+ PortSwigger labs and 7 Hack The Box machines. Practising with Burp Suite, Kali Linux, Nmap, Metasploit, and OSINT.",
+      "it-executive": "Maintained critical ERP software and official websites for multiple institutions, supporting 99.9% uptime. Implemented security practices including user access controls and password audits. Trained 250+ staff members.",
+      "fullstack-dev": "Designed and developed full-stack web applications using Firebase, WordPress, and Materialize CSS. Worked with web architecture, databases, and server-side logic."
     }
   },
   education: {
     degrees: {
-      "computer-science": "Computer Science Engineering",
-      "web-dev-bootcamp": "Web Development Bootcamp",
-      "tdd-course": "Test-Driven Development Course"
+      "cyber-diploma": "Professional Diploma in Cyber Security & Ethical Hacking",
+      "programming-hero": "Complete Web Development Course — Black Belt",
+      "msc-portsmouth": "MSc Information Systems",
+      "bsc-leading": "BSc Computer Science & Engineering"
     },
     descriptions: {
-      "computer-science": "Solid foundation in algorithms, data structures, networking, and software development.",
-      "web-dev-bootcamp": "Intensive training in modern technologies: React, Node.js, MongoDB, Docker.",
-      "tdd-course": "Advanced focus on automated testing, code quality, and agile development cycles."
+      "cyber-diploma": "Arena Web Security — 50-credit program covering ethical hacking, penetration testing, web application security, OSINT, and network security.",
+      "programming-hero": "Certificate of Completion with Excellence. Intensive bootcamp covering JavaScript, HTML, CSS, React, Node.js, Express, MongoDB, and Firebase.",
+      "msc-portsmouth": "University of Portsmouth — Focus on web product development, database management, UX design, computer networking, and systems analysis.",
+      "bsc-leading": "Leading University — Core studies in programming, web and software development, problem-solving, and critical thinking."
     }
   },
   projects: {
@@ -69,67 +74,77 @@ export default {
       viewOnGithub: "View on GitHub",
     },
     titles: {
-      "e-commerce-platform": "E-commerce Platform",
-      "task-manager-app": "Task Manager App",
-      "weather-dashboard": "Real-Time Weather Dashboard",
-      "blog-engine": "Blog Engine with CMS",
+      "portswigger-labs": "PortSwigger Web Security Academy — 50+ Labs",
+      "htb-machines": "Hack The Box — 7 Machines Solved",
+      "wordpress-audit": "WordPress Security Audit with Wordfence",
+      "vuln-scanner": "Vulnerability Scanner (Coming Soon)",
     },
     descriptions: {
-      "e-commerce-platform": "Full platform with cart, Stripe payment gateway, and admin panel. Built with React, Node.js, and MongoDB.",
-      "task-manager-app": "Task management app with auth, drag & drop, and real-time sync. Used React, Firebase, and Framer Motion.",
-      "weather-dashboard": "Interactive dashboard showing current weather and forecast using OpenWeather API. Responsive design with smooth animations.",
-      "blog-engine": "Blog engine with WYSIWYG editor, comments, and advanced SEO. Backend in Node.js with Express and PostgreSQL."
+      "portswigger-labs": "Solved 50+ Apprentice and 4 Practitioner labs across 15+ vulnerability categories: SQL Injection, XSS, CSRF, Clickjacking, CORS, XXE, SSRF, OS Command Injection, Path Traversal, Access Control, Authentication, and Business Logic.",
+      "htb-machines": "Solved 7 Hack The Box machines including Meow, Fawn, Dancing, Redeemer, Appointment, Sequel, and Crocodile. Used Nmap, Burp Suite, Metasploit, and manual enumeration.",
+      "wordpress-audit": "Full security audit of a WordPress site using Wordfence. Scanned 64,807 files, identified 225 issues, and remediated all critical plugin vulnerabilities.",
+      "vuln-scanner": "Building a custom vulnerability scanner with Python and Flask, with a React dashboard for visualization. Combines development and security skills.",
     },
     results: {
-      "e-commerce-platform": [
-        "+10,000 monthly visits",
-        "Successful Stripe integration",
-        "95% user satisfaction"
+      "portswigger-labs": [
+        "50+ Apprentice labs solved",
+        "4 Practitioner labs solved",
+        "Top 100,000 on PortSwigger Hall of Fame",
+        "All labs documented in Notion"
       ],
-      "task-manager-app": [
-        "100% unit test coverage",
-        "Optimized performance (<100ms)",
-        "Available on web and mobile"
+      "htb-machines": [
+        "7 machines completed",
+        "FTP, SMB, MySQL, Redis, Telnet, RDP exploited",
+        "Practical penetration testing methodology",
+        "Documented with screenshots and notes"
       ],
-      "weather-dashboard": [
-        "Accurate real-time data",
-        "Support for 200,000+ cities",
-        "Accessible and responsive design"
+      "wordpress-audit": [
+        "225 issues identified and remediated",
+        "All active plugins updated one by one",
+        "Site re-scanned and verified",
+        "Full documentation in Notion"
       ],
-      "blog-engine": [
-        "SEO optimized (Lighthouse >90)",
-        "Intuitive editor for non-tech users",
-        "Moderated comments"
+      "vuln-scanner": [
+        "Multithreaded port scanner",
+        "Service banner grabbing",
+        "CVE matching",
+        "React dashboard for visualization"
       ],
     }
   },
   skills: {
     txtHeader: "Technical Skills",
-    intro: "My skills have been developed over years building modern web applications, with a focus on quality, performance, and maintainability.",
+    intro: "My skills span both web development and cyber security — giving me a unique perspective on how applications are built and how they break.",
     categories: {
+      "security": "Cyber Security",
+      "tools": "Security Tools",
       "frontend": "Frontend",
       "backend": "Backend",
-      "devops": "DevOps & Cloud",
       "databases": "Databases",
-      "testing": "Testing & Quality",
-      "other": "Other"
+      "platforms": "Platforms & OS"
     },
     items: {
-      "react": "React",
+      "ethical-hacking": "Ethical Hacking",
+      "pentesting": "Penetration Testing",
+      "websec": "Web Application Security",
+      "osint": "OSINT",
+      "burpsuite": "Burp Suite",
+      "kali": "Kali Linux",
+      "wireshark": "Wireshark",
+      "metasploit": "Metasploit",
+      "react": "React.js",
       "javascript": "JavaScript",
-      "typescript": "TypeScript",
       "tailwind": "Tailwind CSS",
+      "express": "Express.js",
       "nodejs": "Node.js",
-      "express": "Express",
-      "docker": "Docker",
+      "python": "Python",
       "git": "Git & GitHub",
-      "postgresql": "PostgreSQL",
+      "docker": "Docker",
+      "linux": "Linux",
       "mysql": "MySQL",
       "mongodb": "MongoDB",
-      "redis": "Redis",
-      "jest": "Jest, Testing Library",
-      "playwright": "Playwright (E2E)",
-      "languages": "C,C++"
+      "postgresql": "PostgreSQL",
+      "redis": "Redis"
     }
   },
   hero: {
@@ -137,7 +152,7 @@ export default {
     btnContact: '✉️ Contact me'
   },
   contact: {
-    message: "Have a project in mind? Let's talk!",
+    message: "Have an opportunity or want to connect? Let's talk!",
     form: {
       name: "Name",
       email: "Email",
@@ -154,11 +169,11 @@ export default {
     rights: "All rights reserved"
   },
   ats: {
-    summary: "{name} is a {roles} with experience in {skills}. Developer of modern web applications with focus on quality, performance, and scalability.",
+    summary: "{name} is a {roles} with experience in {skills}. Full-Stack Developer transitioning into Cyber Security with hands-on penetration testing skills.",
     keyProjects: "Key projects: {projects}.",
-    experience: "Professional experience at {company} leading full-stack development in agile environments.",
+    experience: "Professional experience at {company} in IT support, web development, and cyber security training.",
     contact: "Contact: {email}. Available on {social}.",
-    languages: "Languages: Spanish (native), English (professional).",
+    languages: "Languages: Bengali (native), English (professional).",
     keywords: "Keywords:"
   }
 };

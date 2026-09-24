@@ -1,14 +1,14 @@
-// src/configs/data/site.js
 export const SITE_DATA = {
+  name: 'Shihan Chowdhury', 
   avatar: '/img/optimized/avatar-placeholder.webp',
   icon: '/img/optimized/icon-placeholder.webp',
-  siteUrl: 'https://your-portfolio.vercel.app', // 👈 Cambia esto
-  email: 'contact@example.com', // 👈 Cambia esto
+  siteUrl: 'https://sr7-portfolio.vercel.app',
+  email: 'chowdhuryshihan93@gmail.com',
   social: {
-    github: 'https://github.com/your-username', // 👈
-    linkedin: 'https://linkedin.com/in/your-profile', // 👈
-    twitter: 'https://twitter.com/example', // 👈 opcional
-    discord: 'https://discord.com/example', // 👈 opcional
+    github: 'https://github.com/SR-Chowdhury',
+    linkedin: 'https://www.linkedin.com/in/shihan-chowdhury-915583279',
+    twitter: '',
+    discord: '',
   },
-  cvUrl: '/cv/resume-example.pdf', // 👈 Sube tu CV a public/cv/
+  cvUrl: '/cv/shihan-chowdhury-cv.pdf',
 };
