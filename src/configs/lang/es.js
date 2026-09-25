@@ -1,15 +1,16 @@
 // src/configs/lang/es.js
 export default {
   site: {
-    name: "Alex Morgan",
-    title: "Desarrollador Full-Stack | Especialista en React y Node.js",
-    description: "Desarrollador con experiencia en aplicaciones web modernas, APIs RESTful y arquitecturas escalables.",
+    name: "Shihan Chowdhury",
+    title: "SR7 | Ciberseguridad | Desarrollador Full-Stack",
+    description: "Desarrollador Full-Stack en transición a Ciberseguridad. Enfocado en pruebas de penetración, seguridad de aplicaciones web y hacking ético.",
     heroPhrases: [
-      "Construyendo apps con React desde 2018",
-      "Amante del código limpio",
-      "TDD Practitioner",
-      "Open Source Contributor"
-    ],
+      "Piensa Como Atacante. Construye Como Defensor.",
+      "50+ Laboratorios de PortSwigger Completados",
+      "7 Máquinas de Hack The Box Completadas",
+      "Burp Suite · Kali Linux · Nmap",
+      "Entusiasta de la Seguridad de Aplicaciones Web"
+    ]
   },
   nav: {
     hero: "Inicio",
@@ -30,35 +31,39 @@ export default {
   },
   about: {
     bio: [
-      "Soy desarrollador full-stack con experiencia en construir aplicaciones web robustas y escalables.",
-      "Me apasiona escribir código limpio, bien testeado y mantenible. Uso TDD y CI/CD en todos mis proyectos.",
-      "Fuera del código, me gusta compartir conocimientos, contribuir a open source y aprender nuevas tecnologías."
-    ],
+      "🛡️ SR7 | Piensa Como Atacante. Construye Como Defensor.",
+      "",
+      "Soy un Desarrollador Full-Stack con más de 4 años de experiencia, ahora en transición a la Ciberseguridad con enfoque en Seguridad de Aplicaciones Web y Pruebas de Penetración.",
+      "",
+      "Actualmente completando un Diploma Profesional en Ciberseguridad en Arena Web Security — 50+ laboratorios de PortSwigger resueltos y 7 máquinas de Hack The Box completadas.",
+      "",
+      "Buscando oportunidades de nivel inicial en Ciberseguridad, Pruebas de Penetración o SOC en el Reino Unido."
+    ]
   },
   experience: {
     roles: {
-      "senior-dev": "Desarrollador Senior Full-Stack",
-      "dev-lead": "Líder Técnico",
-      "frontend-dev": "Desarrollador Frontend",
-      "backend-dev": "Desarrollador Backend"
+      "cyber-trainee": "Aprendiz de Ciberseguridad y Hacking Ético",
+      "it-executive": "Ejecutivo de Tecnología de la Información",
+      "fullstack-dev": "Desarrollador Web Full-Stack"
     },
     descriptions: {
-      "senior-dev": "Diseño e implemento soluciones full stack con React, Node.js y bases de datos modernas. Enfoque en rendimiento, accesibilidad y buenas prácticas.",
-      "dev-lead": "Lidero equipos ágiles, defino arquitectura técnica y mentoreo a otros desarrolladores en buenas prácticas y testing.",
-      "frontend-dev": "Desarrollo interfaces modernas con React, TypeScript y Tailwind CSS. Priorizo UX, accesibilidad y rendimiento.",
-      "backend-dev": "Creo APIs RESTful y servicios backend con Node.js, Express y bases de datos SQL/NoSQL. Uso pruebas automatizadas en todo el flujo."
+      "cyber-trainee": "Completando un diploma profesional de 50 créditos en Ciberseguridad. Resolviendo 50+ laboratorios de PortSwigger y 7 máquinas de Hack The Box. Practicando con Burp Suite, Kali Linux, Nmap, Metasploit y OSINT.",
+      "it-executive": "Mantuve software ERP crítico y sitios web oficiales para múltiples instituciones, con 99.9% de disponibilidad. Implementé prácticas de seguridad incluyendo controles de acceso y auditorías de contraseñas. Entrené a más de 250 empleados.",
+      "fullstack-dev": "Diseñé y desarrollé aplicaciones web full-stack usando Firebase, WordPress y Materialize CSS. Trabajé con arquitectura web, bases de datos y lógica del lado del servidor."
     }
   },
   education: {
     degrees: {
-      "computer-science": "Ingeniería en Computación",
-      "web-dev-bootcamp": "Bootcamp de Desarrollo Web",
-      "tdd-course": "Curso de Test-Driven Development"
+      "cyber-diploma": "Diploma Profesional en Ciberseguridad y Hacking Ético",
+      "programming-hero": "Curso Completo de Desarrollo Web — Cinturón Negro",
+      "msc-portsmouth": "MSc en Sistemas de Información",
+      "bsc-leading": "BSc en Ciencias de la Computación e Ingeniería"
     },
     descriptions: {
-      "computer-science": "Formación sólida en algoritmos, estructuras de datos, redes y desarrollo de software.",
-      "web-dev-bootcamp": "Entrenamiento intensivo en tecnologías modernas: React, Node.js, MongoDB, Docker.",
-      "tdd-course": "Enfoque avanzado en pruebas automatizadas, calidad de código y ciclos de desarrollo ágil."
+      "cyber-diploma": "Arena Web Security — Programa de 50 créditos que cubre hacking ético, pruebas de penetración, seguridad de aplicaciones web, OSINT y seguridad de redes.",
+      "programming-hero": "Certificado de Finalización con Excelencia. Bootcamp intensivo que cubre JavaScript, HTML, CSS, React, Node.js, Express, MongoDB y Firebase.",
+      "msc-portsmouth": "University of Portsmouth — Enfoque en desarrollo de productos web, gestión de bases de datos, diseño UX, redes y análisis de sistemas.",
+      "bsc-leading": "Leading University — Estudios básicos en programación, desarrollo web y de software, resolución de problemas y pensamiento crítico."
     }
   },
   projects: {
@@ -69,67 +74,77 @@ export default {
       viewOnGithub: "Ver en GitHub",
     },
     titles: {
-      "e-commerce-platform": "Plataforma de E-commerce",
-      "task-manager-app": "Aplicación de Gestión de Tareas",
-      "weather-dashboard": "Dashboard de Clima en Tiempo Real",
-      "blog-engine": "Motor de Blog con CMS",
+      "portswigger-labs": "PortSwigger Web Security Academy — 50+ Laboratorios",
+      "htb-machines": "Hack The Box — 7 Máquinas Completadas",
+      "wordpress-audit": "Auditoría de Seguridad WordPress con Wordfence",
+      "vuln-scanner": "Escáner de Vulnerabilidades (Próximamente)",
     },
     descriptions: {
-      "e-commerce-platform": "Plataforma completa con carrito, pasarela de pago (Stripe) y panel de administración. Desarrollada con React, Node.js y MongoDB.",
-      "task-manager-app": "App para gestión de tareas con autenticación, drag & drop y sincronización en tiempo real. Usé React, Firebase y Framer Motion.",
-      "weather-dashboard": "Dashboard interactivo que muestra clima actual y pronóstico usando la API de OpenWeather. Diseño responsive y animaciones suaves.",
-      "blog-engine": "Motor de blog con editor WYSIWYG, comentarios y SEO avanzado. Backend en Node.js con Express y base de datos PostgreSQL.",
+      "portswigger-labs": "Resolví 50+ laboratorios de nivel Aprendiz y 4 de nivel Practicante en 15+ categorías de vulnerabilidades: Inyección SQL, XSS, CSRF, Clickjacking, CORS, XXE, SSRF, Inyección de Comandos, Path Traversal, Control de Acceso, Autenticación y Lógica de Negocio.",
+      "htb-machines": "Resolví 7 máquinas de Hack The Box incluyendo Meow, Fawn, Dancing, Redeemer, Appointment, Sequel y Crocodile. Usé Nmap, Burp Suite, Metasploit y enumeración manual.",
+      "wordpress-audit": "Auditoría de seguridad completa de un sitio WordPress usando Wordfence. Escaneé 64,807 archivos, identifiqué 225 problemas y remedié todas las vulnerabilidades críticas de plugins.",
+      "vuln-scanner": "Construyendo un escáner de vulnerabilidades personalizado con Python y Flask, con un dashboard en React para visualización. Combina habilidades de desarrollo y seguridad.",
     },
     results: {
-      "e-commerce-platform": [
-        "+10,000 visitas mensuales",
-        "Integración con Stripe exitosa",
-        "95% de satisfacción de usuarios"
+      "portswigger-labs": [
+        "50+ laboratorios de Aprendiz resueltos",
+        "4 laboratorios de Practicante resueltos",
+        "Top 100,000 en el Hall of Fame de PortSwigger",
+        "Todos los laboratorios documentados en Notion"
       ],
-      "task-manager-app": [
-        "100% cubierto por pruebas unitarias",
-        "Rendimiento optimizado (<100ms)",
-        "Disponible en web y móvil"
+      "htb-machines": [
+        "7 máquinas completadas",
+        "FTP, SMB, MySQL, Redis, Telnet, RDP explotados",
+        "Metodología práctica de pruebas de penetración",
+        "Documentado con capturas y notas"
       ],
-      "weather-dashboard": [
-        "Datos en tiempo real precisos",
-        "Soporte para +200,000 ciudades",
-        "Diseño accesible y responsive"
+      "wordpress-audit": [
+        "225 problemas identificados y remediados",
+        "Todos los plugins actualizados uno por uno",
+        "Sitio re-escaneado y verificado",
+        "Documentación completa en Notion"
       ],
-      "blog-engine": [
-        "SEO optimizado (Lighthouse >90)",
-        "Editor intuitivo para no técnicos",
-        "Comentarios con moderación"
-      ]
+      "vuln-scanner": [
+        "Escáner de puertos multihilo",
+        "Captura de banners de servicios",
+        "Coincidencia de CVE",
+        "Dashboard en React para visualización"
+      ],
     }
   },
   skills: {
     txtHeader: "Habilidades Técnicas",
-    intro: "Mis habilidades se han desarrollado durante años construyendo aplicaciones web modernas, con enfoque en calidad, rendimiento y mantenibilidad.",
+    intro: "Mis habilidades abarcan tanto el desarrollo web como la ciberseguridad — dándome una perspectiva única de cómo se construyen las aplicaciones y cómo se rompen.",
     categories: {
+      "security": "Ciberseguridad",
+      "tools": "Herramientas de Seguridad",
       "frontend": "Frontend",
       "backend": "Backend",
-      "devops": "DevOps & Cloud",
       "databases": "Bases de Datos",
-      "testing": "Pruebas & Calidad",
-      "other": "Otros"
+      "platforms": "Plataformas y SO"
     },
     items: {
-      "react": "React",
+      "ethical-hacking": "Hacking Ético",
+      "pentesting": "Pruebas de Penetración",
+      "websec": "Seguridad de Aplicaciones Web",
+      "osint": "OSINT",
+      "burpsuite": "Burp Suite",
+      "kali": "Kali Linux",
+      "wireshark": "Wireshark",
+      "metasploit": "Metasploit",
+      "react": "React.js",
       "javascript": "JavaScript",
-      "typescript": "TypeScript",
       "tailwind": "Tailwind CSS",
+      "express": "Express.js",
       "nodejs": "Node.js",
-      "express": "Express",
-      "docker": "Docker",
+      "python": "Python",
       "git": "Git & GitHub",
-      "postgresql": "PostgreSQL",
+      "docker": "Docker",
+      "linux": "Linux",
       "mysql": "MySQL",
       "mongodb": "MongoDB",
-      "redis": "Redis",
-      "jest": "Jest, Testing Library",
-      "playwright": "Playwright (E2E)",
-      "languages": "C,C++"
+      "postgresql": "PostgreSQL",
+      "redis": "Redis"
     }
   },
   hero: {
@@ -137,7 +152,7 @@ export default {
     btnContact: '✉️ Contáctame'
   },
   contact: {
-    message: "¿Tienes un proyecto en mente? ¡Hablemos!",
+    message: "¿Tienes una oportunidad o quieres conectar? ¡Hablemos!",
     form: {
       name: "Nombre",
       email: "Correo",
@@ -150,15 +165,15 @@ export default {
     }
   },
   footer: {
-    developedBy: "Diseñado y desarrollado por",
+    developedBy: "Personalizado y desarrollado por",
     rights: "Todos los derechos reservados"
   },
   ats: {
-    summary: "{name} es {roles} con experiencia en {skills}. Desarrollador de aplicaciones web modernas con enfoque en calidad, rendimiento y escalabilidad.",
+    summary: "{name} es {roles} con experiencia en {skills}. Desarrollador Full-Stack en transición a Ciberseguridad con habilidades prácticas en pruebas de penetración.",
     keyProjects: "Proyectos destacados: {projects}.",
-    experience: "Experiencia profesional en {company} liderando desarrollo full stack en entornos ágiles.",
+    experience: "Experiencia profesional en {company} en soporte IT, desarrollo web y formación en ciberseguridad.",
     contact: "Contacto: {email}. Disponible en {social}.",
-    languages: "Idiomas: Español (nativo), Inglés (profesional).",
+    languages: "Idiomas: Bengalí (nativo), Inglés (profesional).",
     keywords: "Palabras clave:"
   }
 };
