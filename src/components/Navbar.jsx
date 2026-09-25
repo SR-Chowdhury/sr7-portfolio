@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav key={lang} className="fixed top-0 left-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
+        <div className="max-w-6xl mx-auto flex justify-between items-center w-full">
           {/* Logo */}
           <h1 className="text-xl font-bold text-blue-600 dark:text-blue-400">
             SR7
