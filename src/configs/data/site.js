@@ -10,5 +10,5 @@ export const SITE_DATA = {
     twitter: '',
     discord: '',
   },
-  cvUrl: '/cv/shihan-chowdhury-cv.pdf',
+  cvUrl: '/cv/Shihan_Chowdhury_Cyber_Security_CV.pdf',
 };
